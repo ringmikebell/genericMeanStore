@@ -10,13 +10,13 @@
           <label class="control-label" for="firstName">First Name</label>
           <input name="firstName" type="text" ng-model="vm.customer.firstName" id="firstName" class="form-control" placeholder="First Name" required>
           <div ng-messages="vm.form.customerForm.firstName.$error" role="alert">
-            <p class="help-block error-text" ng-message="required"> first name is required.</p>
+            <p class="help-block error-text" ng-message="required">Customer's first name is required.</p>
           </div>
           <!--Last Name-->
           <label class="control-label" for="lastName">Last Name</label>
           <input name="lastName" type="text" ng-model="vm.customer.lastName" id="lastName" class="form-control" placeholder="Last Name" required>
           <div ng-messages="vm.form.customerForm.lastName.$error" role="alert">
-            <p class="help-block error-text" ng-message="required"> last name is required.</p>
+            <p class="help-block error-text" ng-message="required">Customer's last name is required.</p>
           </div>
           <!--Address-->
           <label class="control-label" for="address">Address</label>
